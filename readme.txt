@@ -2,7 +2,7 @@
 Contributors: samarudge
 Tags: code, syntax, highlighter, javascript, blog, html
 Requires at least:2.0.0
-Tested up to: 2.2.2
+Tested up to: 2.8.6
 Stable tag: 1.2.9
 
 A very simple and easy to use plugin for syntax highlighting code using a short-tag
