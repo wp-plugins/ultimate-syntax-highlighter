@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: The Ultimate Syntax Highlighter
-Plugin URI: http://www.samrudge.co.uk/68/happy-bloggy-place/creating-the-ultimate-wordpress-code-syntax-highlighter.php
+Plugin URI: http://www.samrudge.co.uk/160/projects/the-ultimate-wordpress-syntax-highlighter.php
 Description: 100% JavaScript syntax highlighter This plugin makes using the <a href="http://code.google.com/p/syntaxhighlighter">Google Syntax highlighter</a> to highlight code snippets within WordPress simple. Supports C++, C#, CSS, Delphi, Java, JavaScript, PHP, Python, Ruby, SQL, VB, XML, and HTML. Read  <a href="http://code.google.com/p/syntaxhighlighter/wiki/Usage">usage directions.</a> - This plugin has been improved with the addition of a short tag [hlight lang="language"]Code[/hlight]
 Version: 1.2.9
 Author: Sam Rudge
