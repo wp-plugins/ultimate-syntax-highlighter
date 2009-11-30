@@ -3,7 +3,7 @@
 Plugin Name: The Ultimate Syntax Highlighter
 Plugin URI: http://www.samrudge.co.uk/68/happy-bloggy-place/creating-the-ultimate-wordpress-code-syntax-highlighter.php
 Description: 100% JavaScript syntax highlighter This plugin makes using the <a href="http://code.google.com/p/syntaxhighlighter">Google Syntax highlighter</a> to highlight code snippets within WordPress simple. Supports C++, C#, CSS, Delphi, Java, JavaScript, PHP, Python, Ruby, SQL, VB, XML, and HTML. Read  <a href="http://code.google.com/p/syntaxhighlighter/wiki/Usage">usage directions.</a> - This plugin has been improved with the addition of a short tag [hlight lang="language"]Code[/hlight]
-Version: 1.5.1
+Version: 1.2.9
 Author: Sam Rudge
 Author URI: http://www.samrudge.co.uk/
 */
@@ -17,12 +17,7 @@ function hlight_func($atts, $content) {
 	return "<pre name=\"code\" class=\"$lang\">$data</pre>";
 }
 add_shortcode('hlight', 'hlight_func');
-
-//Add GPL
-function gpl_func($atts, $content) {
-	return '<img name="GPL_Logo" width="127" height="51" src="http://www.gnu.org/graphics/gplv3-127x51.png" style="border:none;" />';
-}
-add_shortcode('gpl', 'gpl_func');
+add_shortcode('code', 'hlight_func');//Comment out if having dificulty
 
 function insert_header() {
 	$current_path = get_option('siteurl') .'/wp-content/plugins/' . basename(dirname(__FILE__)) .'/';
