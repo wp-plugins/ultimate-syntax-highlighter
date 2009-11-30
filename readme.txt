@@ -5,7 +5,7 @@ Requires at least:2.0.0
 Tested up to: 2.2.2
 Stable tag: 1.2.9
 
-This plugin makes using the Google Syntax highlighter by Alex Gorbatchev to highlight code snippets within WordPress simple. It has been improved by Sam Rudge to allow the addition of the short tag [hlight lang="language"][/hlight]
+A very simple and easy to use plugin for syntax highlighting code using a short-tag
 
 == Description ==
 
@@ -50,4 +50,6 @@ Here is an example to produce ruby syntax highlighting once the plugin is activa
 
 == Screenshots ==
 
-1. Simple Ruby Example
+1. An example in the HTML editor
+2. An example in the Visual editor
+3. The blog-side output
