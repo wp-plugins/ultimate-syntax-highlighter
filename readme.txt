@@ -17,7 +17,7 @@ This plugin allows for easy addition of highlighted code with the [code lang=""]
 * Multiple languages support
 * Wide browser support
 * Very lightweight
-* Easily added with the shortcode [hlight lang="language"][/hlight]
+* Easily added with the shortcode [code lang="language"][/code]
 
 = Languages Supported =
 
@@ -38,15 +38,15 @@ This plugin allows for easy addition of highlighted code with the [code lang=""]
 
 1. Extract plugin into /wp-content/plugins directory.
 2. Activate the plugin.
-3. Specify your code snippets in your blog post using the shortcode [hlight lang="Language"][/hlight]
+3. Specify your code snippets in your blog post using the shortcode [code lang="Language"][/code]
 
 Here is an example to produce ruby syntax highlighting once the plugin is activated: 
 
-	[hlight lang="ruby"]
+	[code lang="ruby"]
 	def my_ruby_snippet
 	  blog_post.should(be_highlighted)
 	end
-	[/hlight]
+	[/code]
 
 == Screenshots ==
 
