@@ -3,13 +3,13 @@ Contributors: peterryan, samarudge
 Tags: code, syntax, highlighter, javascript, blog, html
 Requires at least:2.0.0
 Tested up to: 2.2.2
-Stable tag: 1.5.1
+Stable tag: 1.2.9
 
 This plugin makes using the Google Syntax highlighter by Alex Gorbatchev to highlight code snippets within WordPress simple. It has been improved by Sam Rudge to allow the addition of the short tag [hlight lang="language"][/hlight]
 
 == Description ==
 
-This plugin easily integrates the [Google Syntax Highlighter](http://code.google.com/p/syntaxhighlighter) by [Alex Gorbatchev](http://code.google.com/u/alex.gorbatchev) into WordPress.
+This plugin allows for easy addition of highlighted code with the [code lang=""] tag supporting over 10 languages
 
 = Feature summary =
 
